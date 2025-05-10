@@ -1,0 +1,49 @@
+[project]
+name = "laudanum"
+version = "0.1.0"
+description = "A CLI tool for creating logos with ASCII art."
+authors = [
+    {name = "Mike Letts", email = "lettsmt@gmail.com"}
+]
+maintainers = [
+    {name = "Mike Letts", email = "lettsmt@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pillow (>=11.2.1,<12.0.0)",
+    "art (>=6.5,<7.0)",
+    "click (>=8.1.8,<9.0.0)",
+    "rich (>=14.0.0,<15.0.0)"
+]
+keywords = ["ascii", "art", "logo", "image"]
+license = {text = "MIT"} 
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+isort = "^6.0.1"
+tomlkit = "^0.13.2"
+sphinx = "^7.4.7"
+numpydoc = "^1.8.0"
+pydata-sphinx-theme = "^0.16.1"
+flake8 = "^7.2.0"
+
+[tool.black]
+line-length = 79
+target-version = ["py39"]
+verbose = true
+
+[tool.isort]
+line_length = 79
+ensure_newline_before_comments = true
+use_parentheses = true
+include_trailing_comma = true
+multi_line_output = 3
+
+[tool.poetry.scripts]
+laudanum = "laudanum.cli:create"
