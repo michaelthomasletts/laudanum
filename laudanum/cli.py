@@ -91,35 +91,7 @@ def create(
     backgroundcolor: tuple,
     filename: str,
 ):
-    """Creates a logo using ASCII art.
-    Parameters
-    ----------
-    text : str
-        The text to add into your logo.
-    font : str, optional
-        The `ASCII font <https://www.ascii-art.site/FontList.html>`_ that you want to use in your logo. Default is 'alpha'.
-    fontsize : int, optional
-        The size of the text characters that assemble the ASCII image for your logo. Default is 20.
-    fontpath : str, optional
-        The path to the font file for the text characters that assemble the ASCII image for your logo.
-    fontcolor : tuple, optional
-        RGBA value for the text characters that assemble the ASCII image for your logo. Default is (255, 0, 0, 255)
-    backgroundcolor : tuple, optional
-        RGBA value for the background color of your logo. Default is (0, 0, 0, 0)
-    filename : str, optional
-        The location where you want your logo saved. Default matches the `text` parameter plus the ``.png`` extension.
-    Raises
-    ------
-    InvalidRGBAError
-        Raised when you provide an illegal RGBA value.
-    InvalidFontError
-        Raised when you provide a font that cannot be found in art's gallery.
-    See Also
-    --------
-    laudanum.logo.Logo
-    laudanum.exceptions.InvalidRGBAError
-    laudanum.exceptions.InvalidFontError
-    """
+    """Creates a logo using ASCII art."""
 
     if filename == filename_default:
         filename = LogoParams.filename

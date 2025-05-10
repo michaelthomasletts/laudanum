@@ -20,6 +20,7 @@ logger = getLogger(__name__)
 
 class LogoParams:
     """Stores default values for the :class:`Logo` object.
+    
     Attributes
     ----------
     font : str, optional
@@ -52,6 +53,7 @@ class LogoParams:
 @define
 class Logo:
     """Creates a logo using ASCII art.
+    
     Attributes
     ----------
     text : str
@@ -68,20 +70,24 @@ class Logo:
         RGBA value for the background color of your logo. Default is (0, 0, 0, 0)
     filename : str, optional
         The location where you want your logo saved. Default matches the `text` parameter plus the ``.png`` extension.
+    
     Methods
     -------
     create()
         Creates the logo.
+    
     Notes
     -----
     Only PNG images are permitted in order to support the creation of images with transparent backgrounds via RGBA values.
     The size of images is relative to the size of the rendered ASCII art and cannot be controlled.
     Every font in the `art font gallery <https://www.ascii-art.site/FontList.html>`_ is available.
     The default character font file can be found in the fonts/ submodule of this package.
+    
     See Also
     --------
     laudanum.exceptions.InvalidRGBAError
     laudanum.exceptions.InvalidFontError
+    
     Examples
     --------
     >>> logo = Logo('howdy')
@@ -131,6 +137,7 @@ class Logo:
 
     def create(self):
         """Creates the ASCII logo.
+        
         Raises
         ------
         InvalidRGBAError

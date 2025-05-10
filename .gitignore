@@ -2,3 +2,4 @@
 DS_Store
 poetry.lock
 __pycache__/
+dist/

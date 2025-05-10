@@ -14,7 +14,8 @@ dependencies = [
     "pillow (>=11.2.1,<12.0.0)",
     "art (>=6.5,<7.0)",
     "click (>=8.1.8,<9.0.0)",
-    "rich (>=14.0.0,<15.0.0)"
+    "rich (>=14.0.0,<15.0.0)",
+    "attrs (>=25.3.0,<26.0.0)"
 ]
 keywords = ["ascii", "art", "logo", "image"]
 license = {text = "MIT"} 
@@ -32,6 +33,7 @@ sphinx = "^7.4.7"
 numpydoc = "^1.8.0"
 pydata-sphinx-theme = "^0.16.1"
 flake8 = "^7.2.0"
+sphinx-click = "^6.0.0"
 
 [tool.black]
 line-length = 79
