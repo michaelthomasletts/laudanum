@@ -15,6 +15,10 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GH_PAT }}  # Use the PAT for push permissions
+      
+      - name: Pull changes
+        run: |
+          git pull
 
       - name: Set up Python
         uses: actions/setup-python@v5
