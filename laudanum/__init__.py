@@ -4,5 +4,5 @@ from . import logo
 from .logo import Logo
 
 __all__.extend(logo.__all__)
-__version__ = "0.1.8"
+__version__ = "0.1.9"
 __author__ = "Mike Letts"
