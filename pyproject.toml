@@ -1,6 +1,6 @@
 [project]
 name = "laudanum"
-version = "0.1.4"
+version = "0.1.5"
 description = "A CLI tool for creating logos with ASCII art."
 authors = [
     {name = "Mike Letts", email = "lettsmt@gmail.com"}
