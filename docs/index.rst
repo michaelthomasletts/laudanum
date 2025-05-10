@@ -20,7 +20,7 @@
 
 **Author:** `Mike Letts <https://michaelthomasletts.github.io/>`_
 
-**Description:** A Python package and CLI tool for easily creating logos with `ASCII art <https://www.ascii-art.site/FontList.html>`_.
+**Description:** A simple Python package and CLI tool for easily creating logos with `ASCII art <https://www.ascii-art.site/FontList.html>`_.
 
 Installation
 ------------

@@ -1,4 +1,4 @@
-![laudanum](docs/laudanum.png)
+![laudanum](https://raw.githubusercontent.com/michaelthomasletts/laudanum/refs/heads/main/docs/laudanum.png)
 
 [![PyPI Download](https://img.shields.io/pypi/v/laudanum?logo=pypis.svg)](https://pypi.org/project/laudanum/)
 ![Python Version](https://img.shields.io/pypi/pyversions/laudanum?style=pypi)
