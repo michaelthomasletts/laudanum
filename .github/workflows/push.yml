@@ -102,7 +102,8 @@ jobs:
       - name: Build Documentation
         run: |
           source .venv/bin/activate
-          cd docs/ && make clean && make html
+          cd docs/ && make clean && cd ..
+          sphinx-build docs _build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
