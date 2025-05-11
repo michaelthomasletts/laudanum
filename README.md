@@ -3,7 +3,7 @@
 [![PyPI Download](https://img.shields.io/pypi/v/laudanum?logo=pypis.svg)](https://pypi.org/project/laudanum/)
 ![Python Version](https://img.shields.io/pypi/pyversions/laudanum?style=pypi)
 ![GitHub last commit](https://img.shields.io/github/last-commit/michaelthomasletts/laudanum?logo=github)
-![PyPI Downloads (Total)](https://static.pepy.tech/badge/laudanum)
+[![PyPI Downloads](https://static.pepy.tech/badge/laudanum)](https://pepy.tech/projects/laudanum)
 
 ## What it is
 
